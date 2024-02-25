@@ -2,6 +2,10 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .presiding, .header {
     text-align: center;
 }
@@ -17,12 +21,12 @@ body {
 
 .header img {
     border-radius: 500px;
-    width: 250px;
+    width: 280px;
     margin-top: 3em;
 }
 
 .header h2 {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .bulletin {
@@ -30,7 +34,7 @@ body {
     border-radius: 30px;
     margin: 2em;
     padding: 1em 2em;
-    font-size: 14px;
+    font-size: 22px;
 }
 
 .hymnName {
@@ -44,5 +48,14 @@ body {
 }
 
 .announcements li {
-    margin: 2em;
+    margin: 2em 0;
+    list-style: none;
+}
+
+.announcements ul {
+    padding: 0;
+}
+
+.presiding {
+    font-size: 20px;
 }
